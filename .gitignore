@@ -2,13 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Rr]ecordings
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+.[Ii]dea/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -42,6 +45,9 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.xml
+*.iml
+*.txt
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -58,3 +64,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+AR\UserSettings\EditorUserSettings.asset
+Monkey Steal/Assets/AssetPacks/Cars/Cartoon Car-Vehicle Pack/Assets/Documents/Read Me.txt.meta
